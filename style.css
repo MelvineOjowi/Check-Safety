@@ -1,0 +1,62 @@
+
+/* The following tag selector body use the font-family and background-color properties for body of a page*/  
+  
+body {  
+font-family: Calibri, Helvetica, sans-serif;  
+/* background-color: yellow;   */
+}   
+form{
+  display: flex;
+  justify-content: center;
+}
+/* Following container class used padding for generate space around it, and also use a background-color for specify the color lightblue as a background */    
+.container {  
+padding: 20px 50px;  
+background-color: lightblue;
+width: 300px;  
+}  
+/* The following tag selector input use the different properties for the text filed. */  
+input[type=text] {  
+  width: 100%;  
+  padding: 15px;  
+margin: 5px 0 10px 0;  
+display: inline-block;  
+ border: none;  
+ background: #f1f1f1;  
+}  
+input[type=text]:focus {  
+background-color: orange;  
+outline: none;  
+} 
+.pass{
+    width: 100%;  
+    padding: 15px;  
+  margin: 5px 0 10px 0;  
+  display: inline-block;  
+   border: none;  
+   background: #f1f1f1;
+} 
+ div {  
+            padding: 10px 0;  
+}      
+hr {  
+  border: 1px solid #f1f1f1;  
+  margin-bottom: 25px;  
+}  
+/* The following tag selector button use the different properties for the Button. */  
+button {  
+  background-color: #4CAF50;  
+  color: white;    
+margin: 8px 0;  
+  border: none;  
+  cursor: pointer;  
+  
+ padding: 16px 20px;  
+  width: 100%;  
+  opacity: 0.9;  
+}  
+/* The following tag selector hover use the opacity property for the Button which select button when you mouse over it. */  
+button:hover {  
+opacity: 1;  
+}  
+  
